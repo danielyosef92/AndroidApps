@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_constrain1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.danielyosef.androidapps.Constrain1">
+
+    <EditText
+        android:layout_width="123dp"
+        android:layout_height="54dp"
+        android:inputType="textPersonName"
+        android:text="viloet"
+        android:ems="10"
+        android:id="@+id/violet"
+        android:textSize="30sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="#EE82EE"
+        app:layout_constraintTop_toTopOf="@+id/guideline5"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline6" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline5"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="220dp"
+        tools:layout_editor_absoluteX="0dp"
+        app:layout_constraintGuide_percent="0.43052837" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="0dp"
+        android:layout_height="511dp"
+        android:id="@+id/guideline6"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="90dp"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <EditText
+        android:layout_width="10dp"
+        android:layout_height="54dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:background="#4B0082"
+        app:layout_constraintTop_toTopOf="@+id/guideline5"
+        app:layout_constraintLeft_toRightOf="@+id/violet" />
+
+    <EditText
+        android:layout_width="10dp"
+        android:layout_height="54dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:background="#FFFF00"
+        app:layout_constraintTop_toTopOf="@+id/guideline5"
+        app:layout_constraintLeft_toRightOf="@+id/editText" />
+
+    <EditText
+        android:layout_width="10dp"
+        android:layout_height="54dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:background="#FFA500"
+        app:layout_constraintTop_toTopOf="@+id/guideline5"
+        app:layout_constraintLeft_toRightOf="@+id/editText3" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline7"
+        app:layout_constraintGuide_begin="20dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="20dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline8"
+        app:layout_constraintGuide_begin="20dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="20dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline9"
+        app:layout_constraintGuide_begin="20dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="20dp"
+        tools:layout_editor_absoluteX="0dp" />
+</android.support.constraint.ConstraintLayout>
