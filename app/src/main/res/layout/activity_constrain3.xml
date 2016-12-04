@@ -7,82 +7,83 @@
     android:layout_height="match_parent"
     tools:context="com.example.danielyosef.androidapps.Constrain3">
 
-    <EditText
+    <TextView
         android:layout_width="70dp"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
         android:text="red"
         android:ems="10"
-        android:id="@+id/editText15"
+        android:id="@+id/TextView15"
         android:background="#ff0000"
+        android:textAlignment="center"
         app:layout_constraintTop_toTopOf="@+id/guideline"
         app:layout_constraintLeft_toLeftOf="@+id/guideline2" />
 
-    <EditText
+    <TextView
         android:layout_width="70dp"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
         android:text="orange"
         android:ems="10"
-        android:id="@+id/editText16"
+        android:id="@+id/TextView16"
         android:background="#ffa500"
-        app:layout_constraintTop_toBottomOf="@+id/editText15"
-        app:layout_constraintLeft_toRightOf="@+id/editText15" />
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/TextView15"
+        app:layout_constraintLeft_toRightOf="@+id/TextView15" />
 
-    <EditText
+    <TextView
         android:layout_width="70dp"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
         android:text="yellow"
         android:ems="10"
-        android:id="@+id/editText17"
+        android:id="@+id/TextView17"
         android:background="#ffff00"
-        app:layout_constraintLeft_toRightOf="@+id/editText16"
-        app:layout_constraintTop_toBottomOf="@+id/editText16" />
+        android:textAlignment="center"
+        app:layout_constraintLeft_toRightOf="@+id/TextView16"
+        app:layout_constraintTop_toBottomOf="@+id/TextView16" />
 
-    <EditText
+    <TextView
         android:layout_width="70dp"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
         android:text="green"
         android:ems="10"
-        android:id="@+id/editText18"
+        android:id="@+id/TextView18"
         android:background="#00cd00"
-        app:layout_constraintTop_toBottomOf="@+id/editText17"
-        app:layout_constraintLeft_toRightOf="@+id/editText17" />
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/TextView17"
+        app:layout_constraintLeft_toRightOf="@+id/TextView17" />
 
-    <EditText
+    <TextView
         android:layout_width="70dp"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
         android:text="blue"
         android:ems="10"
-        android:id="@+id/editText19"
+        android:id="@+id/TextView19"
         android:background="#0000ff"
-        app:layout_constraintTop_toBottomOf="@+id/editText18"
-        app:layout_constraintRight_toLeftOf="@+id/editText18" />
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/TextView18"
+        app:layout_constraintRight_toLeftOf="@+id/TextView18" />
 
-    <EditText
+    <TextView
         android:layout_width="70dp"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
         android:text="indigo"
         android:ems="10"
-        android:id="@+id/editText20"
+        android:id="@+id/TextView20"
         android:background="#4b0082"
-        app:layout_constraintRight_toLeftOf="@+id/editText19"
-        app:layout_constraintTop_toBottomOf="@+id/editText19" />
+        android:textAlignment="center"
 
-    <EditText
+        app:layout_constraintRight_toLeftOf="@+id/TextView19"
+        app:layout_constraintTop_toBottomOf="@+id/TextView19" />
+
+    <TextView
         android:layout_width="70dp"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
         android:text="violet"
         android:ems="10"
-        android:id="@+id/editText21"
+        android:id="@+id/TextView21"
         android:background="#ee82ee"
-        app:layout_constraintTop_toBottomOf="@+id/editText20"
-        app:layout_constraintRight_toLeftOf="@+id/editText20" />
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/TextView20"
+        app:layout_constraintRight_toLeftOf="@+id/TextView20" />
 
     <android.support.constraint.Guideline
         android:layout_width="384dp"

@@ -7,82 +7,82 @@
     android:layout_height="match_parent"
     tools:context="com.example.danielyosef.androidapps.Constrain2">
 
-    <EditText
+    <TextView
         android:layout_width="107dp"
         android:layout_height="46dp"
-        android:inputType="textPersonName"
         android:text="red"
         android:ems="10"
-        android:id="@+id/editText2"
+        android:id="@+id/TextView2"
         android:background="#FF0000"
+        android:textAlignment="center"
         app:layout_constraintTop_toTopOf="@+id/guideline3"
         app:layout_constraintLeft_toLeftOf="@+id/guideline4" />
 
-    <EditText
+    <TextView
         android:layout_width="168dp"
         android:layout_height="46dp"
-        android:inputType="textPersonName"
         android:text="orange"
         android:ems="10"
-        android:id="@+id/editText8"
+        android:id="@+id/TextView8"
         android:background="#FFA500"
-        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/TextView2"
         app:layout_constraintLeft_toLeftOf="@+id/guideline4" />
 
-    <EditText
+    <TextView
         android:layout_width="164dp"
         android:layout_height="46dp"
-        android:inputType="textPersonName"
         android:text="yellow"
         android:ems="10"
-        android:id="@+id/editText9"
+        android:id="@+id/TextView9"
         android:background="#FFFF00"
-        app:layout_constraintTop_toBottomOf="@+id/editText8"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/TextView8"
         app:layout_constraintLeft_toLeftOf="@+id/guideline4" />
 
-    <EditText
+    <TextView
         android:layout_width="144dp"
         android:layout_height="46dp"
-        android:inputType="textPersonName"
         android:text="green"
         android:ems="10"
-        android:id="@+id/editText10"
+        android:id="@+id/TextView10"
         android:background="#00cd00"
-        app:layout_constraintTop_toBottomOf="@+id/editText9"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/TextView9"
         app:layout_constraintLeft_toLeftOf="@+id/guideline4" />
 
-    <EditText
+    <TextView
         android:layout_width="126dp"
         android:layout_height="46dp"
-        android:inputType="textPersonName"
         android:text="blue"
         android:ems="10"
-        android:id="@+id/editText11"
+        android:id="@+id/TextView11"
         android:background="#0000ff"
-        app:layout_constraintTop_toBottomOf="@+id/editText10"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/TextView10"
         app:layout_constraintLeft_toLeftOf="@+id/guideline4" />
 
-    <EditText
+    <TextView
         android:layout_width="149dp"
         android:layout_height="46dp"
-        android:inputType="textPersonName"
         android:text="indigo"
         android:ems="10"
-        android:id="@+id/editText12"
+        android:id="@+id/TextView12"
         android:background="#4B0082"
-        app:layout_constraintTop_toBottomOf="@+id/editText11"
-        app:layout_constraintLeft_toLeftOf="@+id/editText2" />
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/TextView11"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView2" />
 
-    <EditText
+    <TextView
         android:layout_width="140dp"
         android:layout_height="46dp"
-        android:inputType="textPersonName"
         android:text="violet"
         android:ems="10"
-        android:id="@+id/editText13"
+        android:id="@+id/TextView13"
         android:background="#ee82ee"
-        app:layout_constraintLeft_toLeftOf="@+id/editText2"
-        app:layout_constraintTop_toBottomOf="@+id/editText12" />
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="@+id/TextView2"
+        app:layout_constraintTop_toBottomOf="@+id/TextView12" />
 
     <android.support.constraint.Guideline
         android:layout_width="wrap_content"
