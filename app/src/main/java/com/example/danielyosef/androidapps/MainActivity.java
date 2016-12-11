@@ -48,11 +48,10 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     Intent i = new Intent(getBaseContext(), clicked.c);
                     startActivity(i);
+                    PlayAnimation();
                 }
             }
-
         });
-
     }
 
     @Override
@@ -72,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void PicAnimation() {
+    public void PlayAnimation() {
 
         ani = this.getSharedPreferences("com.example.danielyosef.androidapps", Context.MODE_PRIVATE);
         String Title = ani.getString("animation Type", "");
@@ -82,11 +81,8 @@ public class MainActivity extends AppCompatActivity {
             overridePendingTransition(R.animator.zoom_in_activity, R.animator.zoom_out_activity);
         } else if (Title.equals("fade")) {
             overridePendingTransition(R.animator.fade_in_animation, R.animator.fade_out_animation);
-        } else {
-            return;
-        }
+        } else { return; }
     }
-
 
     class Screen {
 
